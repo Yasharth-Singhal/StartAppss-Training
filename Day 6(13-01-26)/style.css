@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+.app{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    height: 30rem;
+    width: 25em;
+    padding-top: 3%;
+    margin-left: 37%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+.display
+{
+    
+    height: 50%;
+    width: 25%;
+    padding: 10%;
+    margin: 20%;
+    font-size: 7em;
+}
+
+
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+#sub{
+    width: 25%;
+    height: 50%;
+    padding-top: 2%;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+#add{
+    width: 25%;
+    height: 50%;
+    padding-top: 2%;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+#reset{
+    margin-top: 5%;
+    height: 3em;
+    width: 50%;
+    font-weight: 600;
+}

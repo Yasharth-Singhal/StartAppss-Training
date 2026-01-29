@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f7f8f8;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18%;
+    align-items: center;
+    gap: 1em;
+}
+
+.input{
+    width: 15rem;
+    height: 2rem;
+    border: 2px solid black;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.button{
+    width: 5rem;
+    height: 1.7rem;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover{
+    background: #ffcb5a;
+    color: rgb(0, 0, 0);
+    transform: translateY(-1px);
+}
+
+.data {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.data .cityname {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+.temperature {
+  color: #ff5722;
+  font-size: 22px;
+
+}
+
+.condition {
+  color: #0077b6;
+  font-size: 18px;
+}

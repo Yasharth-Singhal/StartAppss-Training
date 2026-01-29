@@ -1,0 +1,7 @@
+1 Create a personal portfolio page with sections like About, Projects, Contact.
+2 Add navigation bar using <nav> and anchor tags. Structure each section with semantic tags and add placeholder content to simulate real projects and contact info. Include anchor linking to sections
+3 HTML Tags, Semantic HTML, Page Structure
+4 What are the differences between <section>, <div>, and <article> in terms of semantics and accessibility
+5 How do you create an anchor tag that opens in a new tab and is secure?
+6 How do you structure your HTML document for SEO optimization
+7 How does alt text help with accessibility and SEO

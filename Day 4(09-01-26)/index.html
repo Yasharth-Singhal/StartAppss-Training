@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasharth Singhal | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+<header class="header">
+  <strong class="logo">Yasharth</strong>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <div class="layout">
+
+    <div class="content">
+
+      <section id="about">
+        <img src="photo.jpg" alt="Profile">
+        <div>
+          <h1>Hello, I’m Yasharth Singhal</h1>
+          <p>MCA student and Software Developer Trainee.</p>
+          <p>Focused on frontend and problem-solving skills.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+
+        <div id="skills">
+          <div class="skill" >
+            <img src="ISO_C++_Logo.svg" alt="C++" width="80%">
+          </div>
+
+          <div class="skill" >
+            <img src="java-programming-language-art-logo-sign-302791039.webp" alt="C++" width="60%">
+          </div>
+
+          <div class="skill" >
+            <img src="logo.png" alt="C++" width="90%">
+          </div>
+
+
+        </div>
+      </section>
+
+      <section>
+        <h2>My Projects</h2>
+
+        <div id="projects">
+          <div class="project">
+            <h3>Complex Calculator</h3>
+            <p>BCA mini project in which we can perform arithmetic, logical, number conversions and many more calculations.</p>
+            <button>View</button>
+          </div>
+
+          <div class="project">
+            <h3>Recruitment App</h3>
+            <p>Hiring application for recruiters in which recruiters can see the applicants, assign interviewer, manager, and can send mail directly to applicant selected or rejected.</p>
+            <button>View</button>
+          </div>
+
+          <div class="project">
+            <h3>MockMitra – AI Quiz</h3>
+            <p>AI-based quiz generator which will generate quiz based on the course, semester, subject and difficulty level of quiz..</p>
+            <button>View</button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="sidebar">
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form class="form">
+          <fieldset class="form-field">
+            <legend>Contact Details</legend>
+
+            <div class="fields">
+              <label>Name</label>
+              <input type="text" required>
+            </div>
+
+            <div class="fields">
+              <label>Email</label>
+              <input type="email" required>
+            </div>
+
+            <div class="fields">
+              <label>Mobile</label>
+              <input type="tel" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="fav_sub">
+              <span>Select Subject</span>
+
+              <label class="radio">
+                <input type="radio" name="subject" required>
+                HTML
+              </label>
+
+              <label class="radio">
+                <input type="radio" name="subject">
+                CSS
+              </label>
+
+              <label class="radio">
+                <input type="radio" name="subject">
+                JavaScript
+              </label>
+            </div>
+
+            <div class="fields">
+              <label>Message</label>
+              <textarea minlength="25" required></textarea>
+            </div>
+
+            <div class="buttons">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+          </fieldset>
+        </form>
+
+      </section>
+
+    </aside>
+
+  </div>
+
+</main>
+
+<footer class="footer">
+  © 2026 Yasharth Singhal
+</footer>
+
+</body>
+</html>
