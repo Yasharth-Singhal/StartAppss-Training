@@ -1,0 +1,29 @@
+/* navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d6efd; /* Blue navbar */
+  padding: 15px 30px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar .logo h2 {
+  margin: 0;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar .navlink a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.navbar .navlink a:hover {
+  color: #ffc107; /* Yellow on hover */
+}
