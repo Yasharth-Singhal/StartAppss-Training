@@ -14,7 +14,7 @@ const Blog = () => {
       <ul>
         {blogPosts.map((post) => (
           <li key={post.id}>
-            <Link to={`/blog/${post.title}`}>{post.title}</Link> {/* Dynamic route link */}
+            <Link to={`/blog/${post.title}`}>{post.title}</Link> 
           </li>
         ))}
       </ul>
